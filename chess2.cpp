@@ -5,7 +5,7 @@ int test=1;
 int n,m;
 const int n_max=1000;
 typedef long long ll;
-int f[n_max+1][n_max+1]; // i 位置之前（包括i）总共有j个传送器 且i是连续的第k个
+int f[n_max+1][n_max-1]; 
 const int mod=1e9+7;
 
 
