@@ -14,7 +14,7 @@ int func() // 枚举（0，1）（ 0，2） 对打的回合的次数 计算 1，
     int num0_1_max=ceil(1000*1.0/a[1]);
     for(int i=0;i<=num0_1_max;i++)
     {
-        //int num0_2=1000;
+        //int num0_2_max=1000; 遍历数量设置成最大的1000也是可以的
         hp[0]=1000-i*a[1];
         int num0_2_max=ceil(hp[0]*1.0/a[2]);
         if (hp[0]<=0)
